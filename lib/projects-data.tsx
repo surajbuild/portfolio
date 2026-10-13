@@ -74,43 +74,55 @@ export const projects: Project[] = [
   },
   {
     "id": "2",
-    "title": "Paste App",
-    "slug": "paste-app",
-    "description": "A fast and responsive React application for creating, managing, and viewing text snippets.",
-    "detailedDescription": "Paste App is a frontend utility application built with React and Vite that allows users to seamlessly save and manage text snippets (pastes). It features robust state management using Redux Toolkit, client-side routing with React Router, and data persistence using the browser's Local Storage. Users can create new pastes, view a list of all saved pastes, edit existing ones, and delete them, all while receiving real-time toast notifications.",
-    "image": "/pasteApp.jpg",
-    "tags": ["React", "Frontend", "Redux", "Utility", "Vite"],
+    "title": "AI HR Assistant",
+    "slug": "ai-hr-assistant",
+    "description": "An AI-powered HR management application for managing employee data, payroll, attendance, leave requests, and HR queries through an intelligent chat assistant.",
+    "detailedDescription": "AI HR Assistant is a full-stack HR management application built with FastAPI and React that combines traditional HR operations with AI-powered question answering. It features employee and department management, attendance tracking, leave management, salary and payroll processing, document management, reports, and user administration. The intelligent chat assistant uses Retrieval-Augmented Generation (RAG) to answer HR-related questions from uploaded documents with citations and retrieves employee data from MySQL to provide accurate, data-backed responses. The application also includes authentication, role-based access control (RBAC), and safeguards to protect sensitive employee and salary information.",
+    "image": "/hrAssistant.jpg",
+    "tags": ["Python", "FastAPI", "React", "AI", "HRMS", "RAG"],
     "status": "active",
     "techStack": [
+      "Python",
+      "FastAPI",
       "React",
-      "Vite",
-      "Redux Toolkit",
-      "Tailwind CSS",
-      "React Router",
-      "Local Storage"
+      "MySQL",
+      "SQLAlchemy",
+      "RAG",
+      "BM25",
+      "JWT Authentication",
+      "Role-Based Access Control"
     ],
     "features": [
-      "Create, read, update, and delete (CRUD) text pastes",
-      "Dynamic routing to view individual paste details (e.g., /pastes/:id)",
-      "Data persistence across browser sessions using Local Storage",
-      "Duplicate prevention system for checking existing paste titles and content",
-      "Interactive toast notifications for user feedback on actions",
-      "Responsive layout configured with Tailwind CSS"
+      "Employee and department management",
+      "Attendance tracking and leave management",
+      "Salary, payroll, and loss-of-pay calculations",
+      "AI-powered HR chat for natural-language questions",
+      "Document-based question answering using RAG with citations",
+      "MySQL-backed answers for employee data and HR statistics",
+      "Document upload and knowledge retrieval from PDF, DOCX, and TXT files",
+      "Authentication and role-based access control for sensitive information",
+      "Reports, dashboards, and user administration",
+      "Prompt-injection safeguards and validation of AI-generated answers"
     ],
     "learningOutcomes": [
-      "Managing global application state using Redux Toolkit (slices, actions, reducers)",
-      "Persisting Redux state to the browser's Local Storage",
-      "Implementing dynamic client-side routing with React Router DOM",
-      "Handling conditional updates and array manipulations within Redux state",
-      "Setting up and optimizing a React application with Vite"
+      "Building REST APIs with FastAPI and Python",
+      "Integrating a React frontend with a Python backend",
+      "Designing and querying relational databases using MySQL",
+      "Implementing authentication and role-based access control",
+      "Building Retrieval-Augmented Generation (RAG) pipelines for document question answering",
+      "Using BM25 for document retrieval and relevant context selection",
+      "Combining LLMs with database queries for reliable, data-backed answers",
+      "Protecting sensitive HR data and handling prompt-injection risks",
+      "Writing automated tests for backend functionality and AI response reliability"
     ],
     "links": {
-      "visit": "https://paste-app-cyan-three.vercel.app",
-      "github": "https://github.com/surajbuild/pasteapp",
-      "howIBuilt": "",
+      "visit": "",
+      "github": "https://github.com/surajbuild/hr_assistant",
+      "howIBuilt": ""
     },
     "author": "Suraj Kumar",
     "authorAvatar": "/superman.jpg"
+
   },
   {
     "id": "3",
