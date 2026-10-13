@@ -116,7 +116,7 @@ export const projects: Project[] = [
       "Writing automated tests for backend functionality and AI response reliability"
     ],
     "links": {
-      "visit": "",
+      "visit": "https://hrmssuraj.vercel.app",
       "github": "https://github.com/surajbuild/hr_assistant",
       "howIBuilt": ""
     },
